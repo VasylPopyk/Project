@@ -3,19 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://unpkg.com/grapesjs/dist/css/grapes.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="frontend/css/style.min.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
   </head>
   <body>
-    <div id="gjs">
-      <h1>text</h1>
-    </div>
+    <aside class="sidebar">
+      <div class="sidebar__tools"></div>
+      <div class="sidebar__settings-area">
+        <div class="sidebar__settings-area__inner">
+          <div id="block-settings-area" style=""></div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="proposal__view-exit-fullscreeen"></div>
+      <div id="gjs" class="gjs">
+        <h1 style="height: 400px; display: flex">some text</h1>
+      </div>
+    </main>
 
     <script src="https://unpkg.com/grapesjs"></script>
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/grapesjs-style-bg"></script>
+    <script src="frontend/js/app.min.js"></script>
   </body>
 </html>
