@@ -556,10 +556,10 @@ grid-template-rows: 24px 24px 1fr 24px 24px;
 
 /* Стиль для активного лейбла */
 .gjs-radio-item input:checked + .gjs-radio-item-label {
-    background-color: rgba(0, 0, 0, 1); /* Непрозорий чорний фон */
+  background-color: #D8D8D8;
+  filter: invert(100%);
     width: 42.5px;
     height: 35px;
-    border-radius: 5px;
 }
 
 /* Стилі для інпутів радіо */
